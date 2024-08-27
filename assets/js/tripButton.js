@@ -39,8 +39,7 @@ function tripFormSubmit(event) {
             imgUrl: getRandomImage(this)
         }
         tripList.push(trip);
-        //Create function that random image
-        //trip.imgUrl = get selectedImage();
+
         // Adds new trip list to local storage
         localStorage.setItem("tripList", JSON.stringify(tripList));
         // Hides form after successful submission
